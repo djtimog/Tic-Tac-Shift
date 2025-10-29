@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="header">Game</h1>
+    <p id="announcement"></p>
+    <div class="game-container">
+      <div class="game-btn-container">
+        <div id="A1" class="game-btn" onclick="btnClicked('A1')">
+          <div class="red-seed seed">🔴</div>
+        </div>
+
+        <div id="A2" class="game-btn" onclick="btnClicked('A2')">
+          <div class="red-seed seed">🔴</div>
+        </div>
+
+        <div id="A3" class="game-btn" onclick="btnClicked('A3')">
+          <div class="red-seed seed">🔴</div>
+        </div>
+      </div>
+
+      <div class="game-btn-container">
+        <div id="B1" class="game-btn" onclick="btnClicked('B1')"></div>
+
+        <div id="B2" class="game-btn" onclick="btnClicked('B2')"></div>
+
+        <div id="B3" class="game-btn" onclick="btnClicked('B3')"></div>
+      </div>
+
+      <div class="game-btn-container">
+        <div id="C1" class="game-btn" onclick="btnClicked('C1')">
+          <div class="blue-seed seed">🔵</div>
+        </div>
+
+        <div id="C2" class="game-btn" onclick="btnClicked('C2')">
+          <div class="blue-seed seed">🔵</div>
+        </div>
+
+        <div id="C3" class="game-btn" onclick="btnClicked('C3')">
+          <div class="blue-seed seed">🔵</div>
+        </div>
+      </div>
+      <button id="reset-el">Reset</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
